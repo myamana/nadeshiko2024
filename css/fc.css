@@ -28,10 +28,23 @@ input#total {
 
 .total {
     text-align: right;
+    width: 6em;
+}
+
+.totalAll {
+    text-align: right;
+    width: 6em;
+    font-size: large;
+    font-weight: bold;
 }
 
 .labelTotal {
     font-size: large;
     font-weight: bold;
+    text-align: center;
+}
+
+button.clearButton {
+    width: 10em;
     text-align: center;
 }
