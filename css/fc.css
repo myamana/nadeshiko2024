@@ -21,3 +21,7 @@ input#kr-num {
 input#sui-num {
     width: 3em;
 }
+
+input#total {
+    width: 6em;
+}
