@@ -23,12 +23,12 @@ input#sui-num {
 }
 
 input#total {
-    width: 6em;
+    width: 5em;
 }
 
 .total {
     text-align: right;
-    width: 6em;
+    width: 5em;
 }
 
 .totalAll {
@@ -40,7 +40,7 @@ input#total {
 
 #totalAll {
     border: none;
-    width: 6em;
+    width: 5em;
     font-size: large;
     font-weight: bold;
 }
@@ -59,3 +59,7 @@ button.clearButton {
 
 	
 input{ font-size:16px; }
+
+td.nowrap {
+    white-space: nowrap;
+}
