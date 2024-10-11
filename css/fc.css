@@ -35,6 +35,7 @@ input#total {
     text-align: right;
     font-size: large;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 #totalAll {
