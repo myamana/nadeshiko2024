@@ -25,3 +25,7 @@ input#sui-num {
 input#total {
     width: 6em;
 }
+
+.total {
+    text-align: right;
+}
