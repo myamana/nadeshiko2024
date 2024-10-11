@@ -1,54 +1,100 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<title>なでしこ祭 2024 FC模擬店会計</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="なでしこ祭 2024 FC模擬店会計">
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>なでしこ祭 2024 FC模擬店会計</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="なでしこ祭 2024 FC模擬店会計">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="home">
 
-<div id="container">
+    <div id="container">
 
-<header>
+        <header>
 
-<h1 class="logo"><a href="index.html">なでしこ祭 2024 FC</a></h1>
+            <h1 class="logo"><a href="index.html">なでしこ祭 2024 FC</a></h1>
 
-</header>
+        </header>
 
-<div id="contents">
+        <div id="contents">
 
-<main>
+            <main>
 
-<section>
+                <section>
+                    <form id="calc">
+                        <table border="0" cellpadding="5" cellspacing="5">
+                            <thead>
+                                <th>品名</th>
+                                <th>価格</th>
+                                <th>個数</th>
+                                <th>計</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>フランクフルト</td>
+                                    <td>200円</td>
+                                    <td><input type="number" name="ff-num" id="ff-num" min="0" value="0"
+                                            onchange="updateTotal()" /></td>
+                                    <td><span id="ff-total">&nbsp;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>ホットドッグ</td>
+                                    <td>250円</td>
+                                    <td><input type="number" name="hd-num" id="hd-num" min="0" value="0"
+                                            onchange="updateTotal()" /></td>
+                                    <td><span id="hd-total">&nbsp;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>お好み焼き串</td>
+                                    <td>250円</td>
+                                    <td><input type="number" name="ok-num" id="ok-num" min="0" value="0"
+                                            onchange="updateTotal()" /></td>
+                                    <td><span id="ok-total">&nbsp;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>コロッケ</td>
+                                    <td>100円</td>
+                                    <td><input type="number" name="kr-num" id="kr-num" min="0" value="0"
+                                            onchange="updateTotal()" /></td>
+                                    <td><span id="kr-total">&nbsp;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>水餃子</td>
+                                    <td>100円</td>
+                                    <td><input type="number" name="sui-num" id="sui-num" min="0" value="0"
+                                            onchange="updateTotal()" /></td>
+                                    <td><span id="sui-total">&nbsp;</span></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">合計</td>
+                                    <td><input type="number" class="display" id="total" min="0" value="" disabled></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </section>
 
-<table border="0">
-    <th><td>品名</td><td>価格</td><td>個数</td><td>計</td></th>
-    <tr><td>フランクフルト</td><td>200</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-    <tr><td>ホットドッグ</td><td>250</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-    <tr><td>お好み焼き串</td><td>250</td><td>&nbsp;</td>&nbsp;<td></td></tr>
-    <tr><td>コロッケ</td><td>100</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-    <tr><td>水餃子</td><td>100</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-</table>
+            </main>
 
-</section>
+        </div>
+        <!--/#contents-->
 
-</main>
-
-</div>
-<!--/#contents-->
-
-</div>
-<!--/#container-->
+    </div>
+    <!--/#container-->
 
 
-<!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!--このテンプレート専用のスクリプト-->
-<script src="js/main.js"></script>
+    <!--このテンプレート専用のスクリプト-->
+    <script src="js/main.js"></script>
+
+    <!-- 計算用スクリプト -->
+    <script src="js/fc.js"></script>
 
 </body>
+
 </html>

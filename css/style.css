@@ -105,7 +105,7 @@ body {
 
 /*トップページのヘッダー下の背景画像*/
 body.home {
-	background: #fff url("../images/bg_header.png") no-repeat center top / 100%;
+	/* background: #fff url("../images/bg_header.png") no-repeat center top / 100%; */
 }
 
 /*リセット他*/
