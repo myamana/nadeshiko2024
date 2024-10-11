@@ -152,9 +152,10 @@ a:hover {
 コンテンツ内容が少なくてもフッターが画面下に配置される為の指示なので変更不要。
 ---------------------------------------------------------------------------*/
 #container {
-	height: 90vh;
+	/* height: 90vh; */
 	display: flex;
 	flex-direction: column;
+	height: -webkit-fill-available;
 }
 
 
@@ -180,16 +181,9 @@ header {
 	font-weight: 700;				/*文字の太さ。100〜900で指定ができます。*/
 	background: var(--primary-color);		/*背景色。css冒頭のprimary-colorを読み込みます。*/
 	color: var(--primary-inverse-color);	/*文字色。css冒頭のprimary-inverse-colorを読み込みます。*/
-	height: -webkit-fill-available;
 }
 
 header a {color: inherit;}
-
-@media (max-width: 767px) {
-	header {
-	  height: 100vh;
-	}
-  }
 
 /*ロゴ*/
 .logo a {display: block;text-decoration: none;}
