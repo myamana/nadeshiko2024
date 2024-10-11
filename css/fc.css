@@ -33,7 +33,7 @@ input#total {
 
 .totalAll {
     text-align: right;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -41,13 +41,13 @@ input#total {
 #totalAll {
     border: none;
     width: 5em;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     color: black;
 }
 
 .labelTotal {
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     text-align: center;
 }
