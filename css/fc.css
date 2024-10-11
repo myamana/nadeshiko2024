@@ -57,6 +57,11 @@ button.clearButton {
     height: 4em;
     text-align: center;
 }
+button.updateButton {
+    width: 10em;
+    height: 4em;
+    text-align: center;
+}
 
 	
 input{ font-size:16px; }
