@@ -53,6 +53,7 @@ input#total {
 
 button.clearButton {
     width: 10em;
+    height: 4em;
     text-align: center;
 }
 
