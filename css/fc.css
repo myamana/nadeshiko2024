@@ -1,29 +1,35 @@
 input#ff-num {
     width: 3em;
+    text-align: right;
 }
 
 
 input#hd-num {
     width: 3em;
+    text-align: right;
 }
 
 
 input#ok-num {
     width: 3em;
+    text-align: right;
 }
 
 
 input#kr-num {
     width: 3em;
+    text-align: right;
 }
 
 
 input#sui-num {
     width: 3em;
+    text-align: right;
 }
 
 input#total {
     width: 5em;
+    text-align: right;
 }
 
 .total {
