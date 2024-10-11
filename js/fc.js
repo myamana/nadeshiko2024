@@ -38,6 +38,7 @@ function updateTotal() {
 
     let total = ffTotal + hdTotal + okTotal + krTotal + suiTotal;
     $('#totalAll').val(total);
+    $('#totalAll2').text(total);
 
 }
 
