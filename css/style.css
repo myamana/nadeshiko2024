@@ -79,7 +79,7 @@
 body * {box-sizing: border-box;}
 
 html,body {
-	font-size: 13px;	/*基準となるフォントサイズ。*/
+	font-size: 16px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
@@ -189,7 +189,7 @@ header a {color: inherit;}
 .logo img {display: block;}
 .logo {
 	margin: 0;padding: 0;
-	width: 200px;		/*ロゴ画像の幅*/
+	width: 300px;		/*ロゴ画像の幅*/
 	font-size: 1.5rem;	/*ロゴをテキストで使用する場合の文字サイズ*/
 	font-weight: 500;	/*文字の太さ。100〜900で指定ができます。*/
 	letter-spacing: 0.1em;	/*文字間隔をほんの少しだけ広く*/
