@@ -180,6 +180,7 @@ header {
 	font-weight: 700;				/*文字の太さ。100〜900で指定ができます。*/
 	background: var(--primary-color);		/*背景色。css冒頭のprimary-colorを読み込みます。*/
 	color: var(--primary-inverse-color);	/*文字色。css冒頭のprimary-inverse-colorを読み込みます。*/
+	height: -webkit-fill-available;
 }
 
 header a {color: inherit;}
