@@ -38,6 +38,13 @@ input#total {
     font-weight: bold;
 }
 
+#totalAll {
+    border: none;
+    width: 6em;
+    font-size: large;
+    font-weight: bold;
+}
+
 .labelTotal {
     font-size: large;
     font-weight: bold;

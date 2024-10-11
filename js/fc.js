@@ -37,7 +37,7 @@ function updateTotal() {
     $('#sui-total').text(suiTotal);
 
     let total = ffTotal + hdTotal + okTotal + krTotal + suiTotal;
-    $('#totalAll').text(total);
+    $('#totalAll').val(total);
 
 }
 
